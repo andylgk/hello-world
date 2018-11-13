@@ -1,0 +1,31 @@
+CITY_ID	N	VARCHAR2(255)	Y			 地市(city_id)                      
+PROVINCE_ID	N	NUMBER	Y			 省（province_id）                  
+STARTTIME	N	NUMBER	Y			 开始时间                           
+SBC_NAME	N	VARCHAR2(255)	Y			 SBC_NAME                           
+VOLTEAUDERL	N	NUMBER	Y			 VoLTE语音话务量                    
+VOLTEVIDERL	N	NUMBER	Y			 VoLTE视频话务量                    
+VOLTEAUDORIGCALLSUCCNBR	N	NUMBER	Y			 VoLTE语音始呼接通次数              
+VOLTEAUDTERMCALLSUCCNBR	N	NUMBER	Y			 VoLTE语音终呼接通次数              
+VOLTEAUDORIGCALLNBR	N	NUMBER	Y			 VoLTE语音始呼总次数                
+VOLTEAUDTERMCALLNBR	N	NUMBER	Y			 VoLTE语音终呼总次数                
+VOLTEAUDSUCCRATE	N	NUMBER	Y			 VoLTE语音接通率                    
+VOLTEVIDORIGCALLSUCCNBR	N	NUMBER	Y			 VoLTE视频始呼接通次数              
+VOLTEVIDTERMCALLSUCCNBR	N	NUMBER	Y			 VoLTE视频终呼接通次数              
+VOLTEVIDORIGCALLNBR	N	NUMBER	Y			 VoLTE视频始呼总次数                
+VOLTEVIDTERMCALLNBR	N	NUMBER	Y			 VoLTE视频终呼总次数                
+VOLTEVIDSUCCRATE	N	NUMBER	Y			 VoLTE视频接通率                    
+VOLTEAUDOFFLINENBR	N	NUMBER	Y			 VoLTE语音掉话次数                  
+VOLTEAUDORIGCALLREPLYNBR	N	NUMBER	Y			 VoLTE语音始呼应答次数              
+VOLTEAUDTERMCALLREPLYNBR	N	NUMBER	Y			 VoLTE语音终呼应答次数              
+VOLTEAUDOFFLINERATE	N	NUMBER	Y			 VoLTE语音掉话率                    
+VOLTEVIDOFFLINENBR	N	NUMBER	Y			 VoLTE视频掉话次数                  
+VOLTEVIDORIGCALLREPLYNBR	N	NUMBER	Y			 VoLTE视频始呼应答次数              
+VOLTEVIDTERMCALLREPLYNBR	N	NUMBER	Y			 VoLTE视频终呼应答次数              
+VOLTEVIDOFFLINERATE	N	NUMBER	Y			 VoLTE视频掉话率                    
+VOLTEORIGCALLTIMEVTOALL	N	NUMBER	Y			 Volte始呼接续时长（Volte to all)   
+RTCPMOS	N	NUMBER	Y			 MOS值（RTCP）                      
+VOLTEAUDNETCALLNBR	N	NUMBER	Y			 VoLTE语音网络接通次数              
+VOLTEAUDNETSUCCRATE	N	NUMBER	Y			 VoLTE语音网络接通率                
+VOLTEVIDNETCALLNBR	N	NUMBER	Y			 VoLTE视频网络接通次数              
+VOLTEVIDNETSUCCRATE	N	NUMBER	Y			 VoLTE视频网络接通率                
+VOLTEORIGCALLTIMEVTOV	N	NUMBER	Y			 VoLTE始呼接续时长(Volte to Volte)  
